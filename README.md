@@ -1,0 +1,1 @@
+This project is for learning purposes about creating a website/web application for small businesses to grow, especially mobile mechanics who need a management platform to achieve smooth and scalable business activities.
