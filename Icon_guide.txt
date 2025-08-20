@@ -1,0 +1,92 @@
+# Icon Reference Guide
+
+This document lists all the icons used in the Mobile Automotive Repair Services interface.
+
+## Font Awesome Icons Used
+
+### Status Bar Icons
+- `fas fa-signal` - Signal strength
+- `fas fa-wifi` - WiFi connection
+- `fas fa-plane` - Airplane mode
+
+### Header Icons
+- `fas fa-times` - Close/X button
+- `fas fa-chevron-down` - Dropdown arrow
+- `fas fa-share-alt` - Share button
+- `far fa-bookmark` - Bookmark (outline)
+- `fas fa-ellipsis-vertical` - More options (three dots)
+
+### Service Icons
+1. **Alternator**: `fas fa-car-battery`
+2. **Starter Motor**: `fas fa-cog`
+3. **Power Steering**: `fas fa-steering-wheel`
+4. **Radiator & Cooling System**: `fas fa-temperature-high`
+5. **Diagnosis**: `fas fa-search`
+6. **Oil Change**: `fas fa-oil-can`
+7. **Brakes & Braking System**: `fas fa-circle` (represents brake disc)
+8. **Battery**: `fas fa-car-battery`
+9. **Heating and Air**: `fas fa-thermometer-half`
+10. **AC Compressors**: `fas fa-snowflake`
+11. **Air Filter**: `fas fa-filter`
+12. **Gaskets**: `fas fa-puzzle-piece`
+13. **Suspension**: `fas fa-spring`
+14. **Drive Belts**: `fas fa-link`
+15. **Sensors**: `fas fa-microchip`
+16. **Lights**: `fas fa-lightbulb`
+17. **Tune Up**: `fas fa-wrench`
+18. **Fuel Pump & Filter**: `fas fa-gas-pump`
+19. **Hoses**: `fas fa-tube`
+20. **General Mechanic**: `fas fa-tools`
+
+### App Store Icons
+- `fab fa-apple` - Apple logo for App Store
+- `fab fa-google-play` - Google Play logo
+
+### Social Media Icons
+- `fab fa-facebook-f` - Facebook
+- `fab fa-twitter` - Twitter
+- `fab fa-linkedin-in` - LinkedIn
+- `fab fa-youtube` - YouTube
+- `fab fa-instagram` - Instagram
+
+## Icon Library
+
+The interface uses **Font Awesome 6.4.0** loaded from CDN:
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+```
+
+## Alternative Icon Libraries
+
+If you prefer to use other icon libraries, here are some alternatives:
+
+### Material Icons
+```html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
+
+### Feather Icons
+```html
+<script src="https://unpkg.com/feather-icons"></script>
+```
+
+### Heroicons (via CDN)
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/heroicons@1.0.6/outline/heroicons-outline.min.css">
+```
+
+## Custom Icon Modifications
+
+Some icons have been customized with CSS for better representation:
+- Power Steering uses a steering wheel icon
+- Brakes uses a circle to represent brake discs
+- Suspension uses a spring icon where available
+
+## Icon Styling Notes
+
+- All service icons are sized at 32px
+- Header and status bar icons are 18px
+- Social media icons are 20px
+- Icons use white color (#fff) by default
+- Hover effects change icon container background, not icon color
+- Icons are centered within their containers using flexbox
